@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 form>input{
-    padding: .9rem 3rem;
+    padding: .9rem 3rem .9rem 1rem;
     background-color: #141210;
     color: #fff;
     border: 1px solid #616060;

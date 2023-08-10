@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6{
     background:rgba(0,0,0,0.6) url(../assets/images/bk-cover.jpg)no-repeat center center/cover;
     margin:0  auto;
     background-blend-mode: darken;
-    box-shadow: 1000px 100px 250px #000000;
+    box-shadow: 15000px 10000px 20050px #000000;
 }
 .hd-top{
     display: flex;
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
     margin:auto 1rem;
     z-index: 2;
-    fill-opacity: calc(100%);
+    /* fill-opacity: calc(100%); */
    
 }
 .navbar::after{
@@ -54,8 +54,8 @@ h1, h2, h3, h4, h5, h6{
     width: 100%;
     height: 100%;
     z-index: -1;
-    -webkit-filter: brightness(-2%);
-    filter: brightness(-5%);
+    /* -webkit-filter: brightness(-2%); */
+    /* filter: brightness(-5%); */
     
 }
 /* HD top  */
@@ -233,6 +233,7 @@ hr{
     margin-right: auto;
     justify-content: space-between;
     font-size: 1.1rem;
+    cursor: pointer;
 }
 .ready{
     width: 80%;
@@ -246,6 +247,24 @@ hr{
     color: #fff;
     margin: 0 2rem;
     text-align: center;
+}
+.answers{
+    display: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2d2d2d;
+    margin-top: -.89rem;
+    color: #fff;
+}
+.answers>p{
+    margin-bottom: 1.5rem;
+    font-size: 1.09rem;
+    margin-top: 1rem;
+    line-height: 1.3;
+    color: #fff;
+    font-weight: lighter;
+    padding: .5rem;
 }
 .xnn{
     margin-bottom: 3rem;
